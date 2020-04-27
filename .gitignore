@@ -4,3 +4,4 @@
 /build/
 /wagtail_react_streamfield.egg-info/
 /node_modules/
+/.mypy_cache/

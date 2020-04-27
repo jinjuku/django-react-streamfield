@@ -1,0 +1,9 @@
+{% extends "django_react_streamfield/block_forms/sequence.html" %}
+
+{% block header %}
+    {% if list_members_html %}
+        {% include "django_react_streamfield/block_forms/stream_menu.html" with menu_id=prefix|add:"-prependmenu" state="closed" %}
+    {% else %}
+        {% include "django_react_streamfield/block_forms/stream_menu.html" with menu_id=prefix|add:"-prependmenu" state="open" %}
+    {% endif %}
+{% endblock %}

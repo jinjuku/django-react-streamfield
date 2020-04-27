@@ -1,5 +1,5 @@
-Wagtail React StreamField
-=========================
+WIP Extract Wagtail React StreamField as Django React StreamField
+=================================================================
 
 .. image:: http://img.shields.io/pypi/v/wagtail-react-streamfield.svg?style=flat-square&maxAge=3600
    :target: https://pypi.python.org/pypi/wagtail-react-streamfield
